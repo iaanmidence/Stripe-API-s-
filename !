@@ -22,4 +22,6 @@ charge service // create request option //  ChargeCreateOptions
 
 Payments in quickstart pra pegar snippets in html, css, JavaScript (cntrl v + cntrl c) > go to ‘’principal’’ view previously created and cntrl c+ cntrl v 
 re·spec·tive·ly > solution explorer > content > site.css and paste CSS snippet and save it > go back to create and paste the JavaScript snippet > create a
-javascript section on the page ‘’principal’’ and call it whatever u want
+javascript section on the page ‘’principal’’ and call it whatever u want >  solution explorer and find layout > copy scripts ‘render section’ from the bottom
+of the page and paste it >  go back to principal > copy @sectin stripe > go to layout page and chage 'script' for 'stripe in the bottom lines > change links on 
+the page by deleting the last two > change the parameteres of  the html link to 'buy me', 'create' and 'cart' > 
