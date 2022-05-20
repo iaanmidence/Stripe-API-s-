@@ -1,0 +1,25 @@
+# **Creating a charge**
+
+1 - Create [asp.net](http://asp.net) app and set up shooting area.
+
+2 - Download [stripe.net](http://stripe.net) using package manager 
+
+3 - Using the quick start documentation. Copy and paste  the snippets for the charge form.
+
+4 - Use the stripe api create a charge and output the charge id to the view.
+
+Uso  de 2 keys. 1 publishable and 1 Secret
+
+new project (name the API) > MVC
+
+solution explorer > controllers (name it) > o controller estav em código C# > cart (create one and name it : ‘’principal’’ view) > código em html e copiar 
+o formulário <h2> View bag >  right click on cart > Add > view (name it: order status) > código em html <h1> Order Status > download node package manager 
+and grab the form > solution explorer > right click on references > manage NuGet packages > look for [stripe.net](http://stripe.net) and install it 3 
+
+// set up our form // 
+
+charge service // create request option //  ChargeCreateOptions 
+
+Payments in quickstart pra pegar snippets in html, css, JavaScript (cntrl v + cntrl c) > go to ‘’principal’’ view previously created and cntrl c+ cntrl v 
+re·spec·tive·ly > solution explorer > content > site.css and paste CSS snippet and save it > go back to create and paste the JavaScript snippet > create a
+javascript section on the page ‘’principal’’ and call it whatever u want
